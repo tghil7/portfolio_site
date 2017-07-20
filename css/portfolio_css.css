@@ -1,7 +1,8 @@
 @media screen and (min-width: 0px) and (max-width: 650px){
     body{
-         padding: 5px;
+         padding: 10%;
          display: flex;
+		 font-family: 'Dosis', sans-serif;
    }
 
    #main{
@@ -14,6 +15,10 @@
    #header{
     border-bottom: thick solid gray;	
     }
+	
+	figcaption{
+		font-size: x-small;
+	}
 
 
     #blue{	
@@ -29,26 +34,29 @@
     }
 
     .square{
-	width: 75px;
-	height: 75px;
+	width: 100%;
+	height: 38.94px;
 	border: 1px hidden blue;
+	 color: gray;
     }
 
     .userInfo{
-	width: 500px;
-	height: 150px;
+	width: 60%;
+	height: 20%;
 	float: right;
 	padding-top: 25px;
 	padding-bottom: 15px;
 	text-align: right;
+	font-family: 'Dosis', sans-serif;
+	
     }
 
     #userName{
-	font-size: xx-large;
+	font-size: small;
     }
 
     #title{
-	font-size: small;
+	font-size: xx-small;
      }
 
     #mainImgDiv{
@@ -56,7 +64,22 @@
       margin-bottom: 20px;  
     }
 
-
+	.logo{
+		width: 25%;
+		height: 25%;
+	}
+	
+	.bottomImage{
+		width: 100%;
+		height: 30%;
+	  
+	}
+	
+	a:link{
+	  color:black;
+	}
+	
+	
 
 
     aside{
@@ -64,9 +87,14 @@
 	vertical-align: text-top;
 	height: 100%;
 	border-style: hidden;
-	padding-top: 151px;
-	
+	padding-top: 71px;
+	color: gray;
 	} 
+	
+	p{
+	  color: gray;
+	  font-size: small;
+	  }
    
  }
  
@@ -93,10 +121,10 @@
    body{
    padding: 75px;
    display: flex;
+   font-family: 'Dosis', sans-serif;
    }
 
    #main{
-	
 	height: 100%;
 	margin-left: 10px;
 	width: 100%;
@@ -108,7 +136,9 @@
 
 
     #blue{	
-	background-color: #02b3e4;	
+	background-color: #02b3e4;
+	
+    	
     }
 
     #gray{	
@@ -132,6 +162,8 @@
 	padding-top: 25px;
 	padding-bottom: 15px;
 	text-align: right;
+	
+	
     }
 
     #userName{
@@ -146,8 +178,41 @@
       margin-top: 20px;
       margin-bottom: 20px;  
     }
-
-
+	
+	.logo{
+		width: 150px;
+		height: 150px;
+	}
+	
+	.bottomImage{
+		width: 100%;
+		height: 220px;
+		vertical-align: top;
+		
+       		
+	}
+	
+	#featureWork{
+		width: 100%;
+		
+	}
+	
+	figure{
+		width: 25%;
+		padding: 0;
+		text-align: center;
+		float: left;
+	}
+	
+	a:link{
+	  color:black;
+	}
+	
+	figcaption{
+		margin: 0px;
+		width: 25%;
+		
+	}
 
 
     aside{
@@ -156,6 +221,11 @@
 	height: 100%;
 	border-style: hidden;
 	padding-top: 151px;
+	text-align: right;
+	font-size: x-large;
+	color: gray;
 	
     }
+	
+	
 }  
